@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  justify-content: center;
+
+  .Container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 55px 30px 55px 30px;
+    max-width: 1440px;
+
+    .Title {
+      color: hsl(234, 12%, 34%);
+      font-weight: 200;
+      max-width: 400px;
+      margin-bottom: 20px;
+      text-align: center;
+      width: 100%;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .Description {
+      color: hsl(229, 6%, 66%);
+      font-size: 15px;
+      max-width: 500px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .blocksContainer {
+      align-items: center;
+      display: flex;
+      gap: 25px;
+      margin-top: 50px;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .blockContainer {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+      }
+    }
+
+  }
+}

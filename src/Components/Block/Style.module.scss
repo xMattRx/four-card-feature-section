@@ -1,0 +1,28 @@
+.ContainerBlock {
+    border-radius: 3px;
+    box-shadow: 2px 7px 16px 0px rgba(134, 138, 175, 0.53);
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    -moz-box-shadow: 2px 7px 16px 0px rgba(145, 148, 179, 0.53);
+    padding: 20px 28px 30px 28px;
+    -webkit-box-shadow: 2px 7px 16px 0px rgba(145, 148, 179, 0.53);
+
+    h1 {
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+
+    p {
+        color: hsl(229, 6%, 66%);
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+
+    img {
+        display: flex;
+        align-self: flex-end;
+        width: 70px;
+    }
+}
